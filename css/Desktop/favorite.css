@@ -12,10 +12,10 @@
     border: 1px solid lightgray;
     border-radius: 18px;
     padding: 40px;
-    .swiper-slide{
+    .swiper-slide {
       width: 140px;
       height: 100px;
-      
+      border-left: 1px solid rgb(234, 234, 234);
     }
     & img {
       width: 80px;
@@ -32,10 +32,9 @@
       margin-bottom: 30px 0;
       & h2 {
         font-family: var(--font-family);
-        font-size:20px ;
+        font-size: 20px;
         font-weight: normal;
       }
     }
-   
   }
 }

@@ -158,15 +158,24 @@
                 font-family: var(--font-family-number);
               }
             }
-            .item__5 {
-              width: inherit;
-              height: 25px;
-              background-color: blueviolet;
-            }
             .item__6 {
               width: inherit;
+              height: 25px;
+              display: flex;
+              flex-flow: row wrap;
+              justify-content: flex-end;
+              font-family: var(--font-family-number);
+              color: #d20e35;
+            }
+            .item__5 {
+              width: inherit;
               height: 22px;
-              background-color: orange;
+              display: flex;
+              flex-flow: row wrap;
+              justify-content: flex-start;
+              column-gap: 5px;
+              font-family: var(--font-family);
+              font-size: 11px;
             }
           }
         }

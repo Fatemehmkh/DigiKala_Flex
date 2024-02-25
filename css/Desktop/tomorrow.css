@@ -4,6 +4,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-top: 25px;
   .tomorrow__item {
     width: 97%;
     height: inherit;
@@ -61,10 +62,10 @@
       justify-content: center;
       align-items: center;
       position: relative;
-      .child{
+      .child {
         width: 34px;
         height: 20px;
-        background-color: #D32F2F;
+        background-color: #d32f2f;
         font-family: var(--font-family-number);
         font-size: 14px;
         font-weight: bold;
@@ -96,7 +97,7 @@
       & span {
         font-family: var(--font-family-number);
         font-size: 16px;
-        color: #F15B6E;
+        color: #f15b6e;
         font-weight: bold;
       }
     }
