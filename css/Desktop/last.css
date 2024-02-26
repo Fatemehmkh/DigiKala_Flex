@@ -1,0 +1,255 @@
+.top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 30px;
+  margin-top: 20px;
+  & h5 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+.last {
+  width: var(--width);
+  height: 3000px;
+  display: flex;
+  flex-flow: row nowrap;
+  .right {
+    width: 230px;
+    height: 480px;
+    border: 1px solid lightgrey;
+    margin-right: 30px;
+    border-radius: 10px;
+    position: sticky;
+    z-index: 7777;
+    top: 0;
+    .first {
+      width: inherit;
+      height: 60px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+      padding-right: 20px;
+      & h3 {
+        font-family: var(--font-family);
+        font-size: 16px;
+        color: #2b2b2b;
+      }
+    }
+    .second {
+      width: inherit;
+      height: 50px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      .second__item {
+        width: 190px;
+        height: inherit;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+      & h2 {
+        font-family: var(--font-family);
+        font-size: 15px;
+        color: #2b2b2b;
+        font-weight: normal;
+      }
+    }
+    .third,
+    .fourth,
+    .fifth {
+      width: inherit;
+      height: 50px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      .third__item,
+      .fourth__item,
+      .fifth__item {
+        width: 190px;
+        height: inherit;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        & div {
+          width: 130px;
+          height: 30px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: flex-start;
+          align-items: center;
+          column-gap: 5px;
+          & span {
+            font-family: var(--font-family);
+            font-size: 15px;
+            color: #2b2b2b;
+          }
+        }
+        .btn {
+          width: 35px;
+          height: 17px;
+          border: 1px solid lightgray;
+          border-radius: 15px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-end;
+          align-items: center;
+          padding-left: 4px;
+          .inside {
+            width: 8px;
+            height: 8px;
+            background-color: lightgray;
+            border: 1px solid lightgrey;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .sixth {
+      width: inherit;
+      height: 50px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      .sixth__item {
+        width: 190px;
+        height: inherit;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        & span {
+          font-family: var(--font-family);
+          font-size: 15px;
+          color: #2b2b2b;
+        }
+      }
+    }
+    .seventh,
+    .eighth {
+      width: inherit;
+      height: 50px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      .seventh__item,
+      .eighth__item {
+        width: 190px;
+        height: inherit;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        & span {
+          font-family: var(--font-family);
+          font-size: 15px;
+          color: #2b2b2b;
+        }
+        .btn {
+          width: 35px;
+          height: 17px;
+          border: 1px solid lightgray;
+          border-radius: 15px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-end;
+          align-items: center;
+          padding-left: 4px;
+          .inside {
+            width: 8px;
+            height: 8px;
+            background-color: lightgray;
+            border: 1px solid lightgrey;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .ninth {
+      width: inherit;
+      height: 50px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      & span {
+        font-family: var(--font-family);
+        font-size: 15px;
+        color: #2b2b2b;
+      }
+    }
+  }
+  .left {
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .head {
+      width: 97%;
+      height: 40px;
+      background-color: lightblue;
+      border-bottom: 1px solid lightgrey;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      .rast {
+        width: 90%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 10px;
+        & h2 {
+          font-family: var(--font-family);
+          font-size: 11px;
+          font-weight: normal;
+          opacity: 0.6;
+        }
+        .last-one {
+          color: crimson;
+        }
+        .moratabsazi {
+          width: 100px;
+          height: inherit;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: flex-start;
+          align-items: center;
+          column-gap: 6px;
+          & span {
+            font-family: var(--font-family);
+            font-size: 11px;
+            font-weight: normal;
+          }
+        }
+      }
+      & div{
+        font-family: var(--font-family-number);
+        font-weight: normal;
+        font-size: 14px;
+        opacity: 0.7;
+      }
+    }
+  }
+}
