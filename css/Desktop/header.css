@@ -140,7 +140,6 @@ header .bottom .right .menu__nav .menu__item .menu__item__link {
   column-gap: 3px;
   align-items: center;
   transition: 100ms;
- 
 }
 
 header .bottom .right .menu__nav .menu__item .menu__item__link span svg {
@@ -150,7 +149,7 @@ header .bottom .right .menu__nav .menu__item .menu__item__link span svg {
 header .bottom .right .menu__nav .menu__item .sub__menu {
   width: 70vw;
   height: 70vh;
-  background-color:#ffffff ;
+  background-color: #ffffff;
   position: absolute;
   display: none;
   transition: 300ms;
@@ -187,35 +186,245 @@ header .bottom .right .menu__nav .menu__item .sub__menu {
       .sub__sub__menu {
         width: 70%;
         height: 100%;
-        background-color: #ffffff;
         position: absolute;
         left: 0;
         top: 0;
         display: none;
-        .active {
-          display: flex !important;
-          background-color: #e52d3e !important;
+        .total {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+          .bala {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            .all-of-product {
+              width: 60%;
+              height: 50px;
+              display: flex;
+              flex-flow: row nowrap;
+              justify-content: flex-end;
+              align-items: center;
+              padding-right: 20px;
+              & h1 {
+                font-family: var(--font-family);
+                font-size: 13px;
+                font-weight: normal;
+              }
+            }
+          }
+          .payin {
+            width: 100%;
+            height: 90%;
+            display: flex;
+            flex-flow: row-reverse nowrap;
+            .first-column {
+              width: 25%;
+              height: 100%;
+              display: flex;
+              flex-flow: column nowrap;
+              .head-of-index {
+                width: 100%;
+                height: 8%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-end;
+                align-items: center;
+                padding-right: 10px;
+                column-gap: 5px;
+                & span {
+                  font-family: var(--font-family);
+                  font-size: 11px;
+                }
+                & h6 {
+                  color: red;
+                }
+              }
+              .list-content {
+                width: 100%;
+                height: 92%;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: flex-end;
+                row-gap: 10px;
+                padding-right: 10px;
+                & span {
+                  font-family: var(--font-family);
+                  font-size: 11px;
+                  opacity: 0.6;
+                }
+              }
+            }
+            .second-column {
+              width: 25%;
+              height: 100%;
+              display: flex;
+              flex-flow: column nowrap;
+              .head-of-index {
+                width: 100%;
+                height: 8%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-end;
+                align-items: center;
+                padding-right: 10px;
+                column-gap: 5px;
+                & span {
+                  font-family: var(--font-family);
+                  font-size: 11px;
+                }
+                & h6 {
+                  color: red;
+                }
+              }
+              .list-content {
+                width: 100%;
+                height: 92%;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: flex-end;
+                row-gap: 10px;
+                padding-right: 10px;
+                .head-index {
+                  width: 100%;
+                  height: 30px;
+                  display: flex;
+                  flex-flow: row nowrap;
+                  justify-content: flex-end;
+                  align-items: center;
+                  column-gap: 5px;
+                  & h6 {
+                    color: red;
+                  }
+                  & h5 {
+                    font-family: var(--font-family);
+                    font-size: 11px;
+                    font-weight: normal;
+                  }
+                }
+                & span {
+                  font-family: var(--font-family);
+                  font-size: 11px;
+                  opacity: 0.6;
+                }
+              }
+            }
+            .third-column {
+              width: 25%;
+              height: 100%;
+              display: flex;
+              flex-flow: column nowrap;
+              .head-of-index {
+                width: 100%;
+                height: 8%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-end;
+                align-items: center;
+                padding-right: 10px;
+                column-gap: 5px;
+                & span {
+                  font-family: var(--font-family);
+                  font-size: 11px;
+                }
+                & h6 {
+                  color: red;
+                }
+              }
+              .list-content {
+                width: 100%;
+                height: 92%;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: flex-end;
+                row-gap: 10px;
+                padding-right: 10px;
+                .head-index {
+                  width: 100%;
+                  height: 30px;
+                  display: flex;
+                  flex-flow: row nowrap;
+                  justify-content: flex-end;
+                  align-items: center;
+                  column-gap: 5px;
+                  & h6 {
+                    color: red;
+                  }
+                  & h5 {
+                    font-family: var(--font-family);
+                    font-size: 11px;
+                    font-weight: normal;
+                  }
+                }
+                & span {
+                  font-family: var(--font-family);
+                  font-size: 11px;
+                  opacity: 0.6;
+                }
+              }
+            }
+            .fourth-column {
+              width: 25%;
+              height: 100%;
+              display: flex;
+              flex-flow: column nowrap;
+              .head-of-index {
+                width: 100%;
+                height: 8%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-end;
+                align-items: center;
+                padding-right: 10px;
+                column-gap: 5px;
+                & span {
+                  font-family: var(--font-family);
+                  font-size: 11px;
+                }
+                & h6 {
+                  color: red;
+                }
+              }
+              .list-content {
+                width: 100%;
+                height: 92%;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: flex-end;
+                row-gap: 10px;
+                padding-right: 10px;
+                & span {
+                  font-family: var(--font-family);
+                  font-size: 11px;
+                  opacity: 0.6;
+                }
+              }
+            }
+          }
         }
-      }
-      &:hover .sub__sub__menu {
-        display: flex;
+        &:hover .sub__sub__menu {
+          display: flex;
+        }
       }
     }
   }
-}
 
-header .bottom .left {
-  width: 30%;
-  display: flex;
-  justify-content: flex-end;
-  padding-left: 20px;
-  align-items: center;
-  font-family: IRAN;
-  font-size: 13px;
-}
-header .bottom .left p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 5px;
+  header .bottom .left {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+    align-items: center;
+    font-family: IRAN;
+    font-size: 13px;
+  }
+  header .bottom .left p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+  }
 }

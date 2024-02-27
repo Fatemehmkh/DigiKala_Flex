@@ -7,7 +7,7 @@ header {
     top: 0;
   }
   header .top {
-    width: var(--width);
+    width: 100%;
     height: 60px;
     z-index: 8888;
     position: sticky;
