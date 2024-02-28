@@ -11,7 +11,7 @@
   height: 450px;
   padding: 30px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
 }

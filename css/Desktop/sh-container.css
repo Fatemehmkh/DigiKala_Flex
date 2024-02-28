@@ -10,6 +10,7 @@
     height: 328px;
     background-color: #d20e35;
     border-radius: 8px;
+    background-image: url(/svg/svg4.svg);
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;

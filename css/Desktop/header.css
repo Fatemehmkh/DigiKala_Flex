@@ -2,16 +2,19 @@ header {
   width: 100%;
   height: 170px;
   box-shadow: 0 1px 5px #d0d0d0;
-  z-index: 8888;
+  z-index: 9999;
   position: sticky;
   top: 0;
 }
 header .top {
   width: var(--width);
   height: 60px;
-  z-index: 8888;
+  z-index: 9999;
   position: sticky;
-  top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  
 }
 header .top img {
   width: inherit;

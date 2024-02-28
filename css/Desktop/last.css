@@ -198,11 +198,11 @@
   }
   .left {
     width: 100%;
-    height: auto;
-    background-color: blue;
+    height: 2000px;
+    background-color: yellow;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
     .head {
       width: 97%;
       height: 40px;
@@ -244,11 +244,163 @@
           }
         }
       }
-      & div{
+      & div {
         font-family: var(--font-family-number);
         font-weight: normal;
         font-size: 14px;
         opacity: 0.7;
+      }
+    }
+    .last-product {
+      width: 97%;
+      height: 2000px;
+      display: flex;
+      flex-flow:row wrap;
+      background-color: orange;
+      .ein {
+        width: 20%;
+        height: 450px;
+        border: 1px solid lightgray;
+        .top-ein {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          padding-right: 8px;
+        }
+        .image-ein {
+          width: 100%;
+          height: 250px;
+          & img {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+          }
+        }
+        .drei-ein {
+          width: 100%;
+          height: 60px;
+          padding-right: 8px;
+          margin-top: 5px;
+          & h5 {
+            font-family: var(--font-family);
+            font-size: 11px;
+            font-weight: normal;
+            color: #2b2b2b;
+          }
+        }
+        .vier-ein {
+          width: 100%;
+          height: 20px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          align-items: center;
+          .rechts {
+            font-family: var(--font-family);
+            font-size: 10px;
+            color: crimson;
+          }
+          .links {
+            width: 50px;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            align-items: center;
+            column-gap: 5px;
+            padding-left: 8px;
+            & span {
+              font-family: var(--font-family-number);
+              font-weight: normal;
+              font-size: 14px;
+            }
+          }
+        }
+        .funf-ein {
+          width: 100%;
+          height: 25px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          align-items: center;
+          .right {
+            width: 35px;
+            height: 20px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            background-color: #d32f2f;
+            border: 1px solid #d32f2f;
+            border-radius: 18px;
+            font-family: var(--font-family-number);
+            color: white;
+          }
+          .left {
+            width: 90px;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            background-color: orange;
+            align-items: center;
+            padding-left: 8px;
+            column-gap: 5px;
+            & span {
+              font-family: var(--font-family-number);
+              font-size: 18px;
+            }
+          }
+        }
+        .sechs-ein {
+          width: 100%;
+          height: 20px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: flex-end;
+          align-items: center;
+          font-family: var(--font-family-number);
+          text-decoration: line-through;
+          opacity: 0.5;
+          color: #2b2b2b;
+          padding-left: 8px;
+        }
+        .sieben-ein {
+          width: 100%;
+          height: 10px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          .sieben-ein-item {
+            width: 97%;
+            height: 5px;
+            background-color: lightgray;
+            border-radius: 18px;
+            position: relative;
+            .sieben-ein-item-item {
+              width: 50%;
+              height: inherit;
+              background-color: #d32f2f;
+              border-radius: 18px;
+              position: absolute;
+              left: 0;
+            }
+          }
+        }
+        .acht-ein {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: flex-end;
+          align-items: center;
+          padding-left: 8px;
+          font-family: var(--font-family-number);
+          color: #d32f2f;
+        }
       }
     }
   }
