@@ -16,7 +16,7 @@
     .right {
       width: 416px;
       height: 360px;
-      background-image: url(/image/digiplus/background.png);
+      background-image: url(../../image/digiplus/background.png);
       background-size: 350px 280px;
       background-position: left bottom;
       background-repeat: no-repeat;

@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .chance__item {
-  width: 80%;
+  width: 90%;
   height: inherit;
   display: flex;
   flex-flow: row wrap;

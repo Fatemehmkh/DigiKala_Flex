@@ -16,7 +16,7 @@
   flex-flow: row wrap;
   justify-content: space-between;
   cursor: pointer;
-  background-image: url(/svg/svg3.svg);
+  background-image: url(../../svg/svg3.svg);
   background-repeat: no-repeat;
 }
 .sh-supermarket__item .supermarket__right__item {
